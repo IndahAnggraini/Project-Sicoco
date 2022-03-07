@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".registersuksesactivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="Created!"
+            android:textColor="@color/birugelapp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/imagecentang"
+            android:src="@drawable/registersukses"
+            android:layout_below="@id/text1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_below="@id/imagecentang"
+            android:text="Silahkan login menggunakan username dan password yang sudah didaftarkan , Terimakasih :)"
+            android:paddingHorizontal="40dp"
+            android:textSize="16dp"
+            android:textColor="@color/birugelapp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="12dp"
+            android:backgroundTint="@color/birugelap"
+            android:text="Oke" />
+
+    </RelativeLayout>
+
+</LinearLayout>

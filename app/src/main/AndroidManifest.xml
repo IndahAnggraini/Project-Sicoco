@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indah.sicoco">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+         android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Drawer.NoActionBar"
+        >
+        <activity android:name=".daftar_coaching" ></activity>
+
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Drawer.NoActionBar"/>
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".register_activity" />
+        <activity android:name=".register_activity2" />
+        <activity android:name=".registersuksesactivity" />
+        <activity android:name=".dashboardactivity" />
+        <activity android:name=".pertanyaan_activity" />
+        <activity android:name=".view_detail" />
+        <activity android:name=".login_activity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
